@@ -3,7 +3,7 @@ Retinal fundus photography is significant in diagnosing and monitoring retinal d
 
 ## Model Architecture
 
-![Model Overview](https://github.com/Retinal-Research/CUNSB-RFIE/blob/main/images/network-structure.png)
+![Model Overview](https://github.com/Retinal-Research/CUNSB-RFIE/blob/main/images/network_structure.png)
 
 ## Enhancement  Result Illustration. 
 
