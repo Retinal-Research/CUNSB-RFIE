@@ -33,11 +33,11 @@ To get a local copy up and running follow these simple steps.
 The original EyeQ dataset can be downloaded by following the instructions provided [here](https://github.com/HzFu/EyeQ). The synthetic degraded images were generated using the algorithms described [here](https://github.com/joanshen0508/Fundus-correction-cofe-Net).
 
 ## Pretrained weight on EyeQ Dataset
-The pre-trained weights on EyeQ Dataset can be got in folder **./pretrained**.  
+The pre-trained weights for the EyeQ dataset can be found in the **./pretrained** directory.  
 
 
-## Training / testing on Customized Dataset
-To train from scratch on a custom dataset, first create a directory named **datasets** to store your data. Organize the data in the following format: **Phase (train, test, val) A or B** (e.g., trainA, testB, valB). Once organized, start the training process by running the following command:
+## Training / testing on Custom Dataset
+To train from scratch on a custom dataset, first create a directory named **datasets** to store your data. Organize the data in the following format: **PhaseA / B** (e.g., trainA, testB, valB) to do **AtoB** transformation. Once organized, start the training process by running the following command:
 ```sh
 bash run_train.sh
 ```
@@ -45,11 +45,13 @@ To test your custom dataset, run the testing script:
 ```sh
 bash run_test.sh
 ```
-All arguments for training and testing are stored in the **options** folder and **./models/sb_model.py**.
+All arguments for training and testing are stored in the **options** folder and in **./models/sb_model.py**.
 
 ### Thanks for the code provided by:
 
 UNSB: https://github.com/cyclomon/UNSB
 DSCNet: https://github.com/yaoleiqi/dscnet
+EyeQ:https://github.com/HzFu/EyeQ
+CofeNet:https://github.com/joanshen0508/Fundus-correction-cofe-Net
 
 
